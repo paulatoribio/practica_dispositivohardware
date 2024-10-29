@@ -1,0 +1,76 @@
+
+body{
+    background-color: var(--color-blanco);
+    color: var(--color-negra);
+}
+header{
+  /* El backgraund que pongo hacerlo + grande o + pequeño*/
+  padding: 10px;
+  display: flex;
+  /*para poner principal en el centro, arriba o abajo*/
+  align-items: center;
+  /* se centre todo en el medio con su propio espacio*/
+  justify-content: space-between;
+  background-color: rgb(183, 226, 226);
+}
+
+main {
+    margin: 0 auto;
+    padding: 0;
+    /* letras salgan en columnas y no filas*/
+    max-width: 840px;
+    /* tamaño de letra*/
+    font-size: 20px;
+  }
+  h4{
+    text-align: center;
+    font-size: 25px;
+  }
+  h2{
+    text-align: center;
+  }
+  h5,h6,h7{ 
+    text-align: center;
+    font-size: 25px;
+  }
+  #evolucion p{
+    font-size: 20px;
+    padding: auto;
+    
+  }
+  #tecnología {
+    display: inline;
+    justify-content: center;
+  }
+
+  nav#principal li {
+    display: inline;
+    margin: 10px;
+  }
+  #evolucion img{
+    width: 400px;
+    margin: 0px;
+  }
+  
+  img{
+    width: 800px;
+    margin: 0px;
+}
+
+  footer{
+    background-color: rgb(183, 226, 226);
+    padding: 20px;
+    font-size: 20px;
+  }
+  footer a{
+    color: #551A8B;
+  }
+
+ 
+
+ 
+  
+
+ 
+
+
